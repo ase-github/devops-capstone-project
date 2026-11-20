@@ -1,3 +1,7 @@
+# devops-capstone-project
+
+This repository contains the Customer Accounts microservice for the IBM DevOps capstone project. It is a Python Flask REST API that lets other services create, read, update, delete, and list customer accounts. The project follows Agile planning and test-driven development, uses GitHub Actions for CI, and deploys to Kubernetes/OpenShift with a Tekton CD pipeline.
+
 # DevOps Capstone Template
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
