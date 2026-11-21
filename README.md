@@ -1,5 +1,7 @@
 # devops-capstone-project
 
+![Build Status](https://github.com/ase-github/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
 This repository contains the Customer Accounts microservice for the IBM DevOps capstone project. It is a Python Flask REST API that lets other services create, read, update, delete, and list customer accounts. The project follows Agile planning and test-driven development, uses GitHub Actions for CI, and deploys to Kubernetes/OpenShift with a Tekton CD pipeline.
 
 # DevOps Capstone Template
@@ -69,10 +71,10 @@ The code for the microservice is contained in the `service` package. All of the 
 
 ```text
 ├── service         <- microservice package
-│   ├── common/     <- common log and error handlers
-│   ├── config.py   <- Flask configuration object
-│   ├── models.py   <- code for the persistent model
-│   └── routes.py   <- code for the REST API routes
+│   ├── common/     <- common log and error handlers
+│   ├── config.py   <- Flask configuration object
+│   ├── models.py   <- code for the persistent model
+│   └── routes.py   <- code for the REST API routes
 ├── setup.cfg       <- tools setup config
 └── tests                       <- folder for all of the tests
     ├── factories.py            <- test factories
